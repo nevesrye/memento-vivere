@@ -1,6 +1,6 @@
 #Main Selection Menu
 def main():
-    totalBudget = 4000
+    totalBudget = 0
     choice = 0
     while choice != '5':
         print 'Menu Selection'
