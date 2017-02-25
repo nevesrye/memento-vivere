@@ -22,18 +22,17 @@
             
             <div id="page_navigation">
                 <ul>
-                    <li class="active"><a href="{% url budget_dashboard %}">Dashboard</a></li>
                     <li><a href="{% url budget_transactions %}">Transactions</a></li>
                     <li><a href="{% url budget_updates %}">Updates</a></li>
                     <li><a href="{% url budget_alerts %}">Alerts</a></li>
-                    <li><a href="{% url budget_budget&bill %}">Budget & Bill</a></li>
+                    <li class="active"><a href="{% url budget_budget&bill %}">Budget & Bill</a></li>
                 </ul>
             </div>
             
             <div id="page_content">
                 <div id="content">
                     {% block content %}
-                        <p>!ADVISORY!<br>BLOCKED CONTENT</p>
+                        <p>! ADVISORY !<br>BLOCKED CONTENT</p>
                     {% endblock %}
                 </div>
             </div>
